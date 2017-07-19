@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kavenegar", "Kavenegar\Kavenegar.csproj", "{28209ADB-60BA-4E6C-B802-B2CC0AB85181}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kavenegar.NetStandard", "Kavenegar.NetStandard\Kavenegar.NetStandard.csproj", "{A8BDA994-CA52-49D9-A7F2-15786D4803B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kavenegar.Test", "Kavenegar.Test\Kavenegar.Test.csproj", "{8EADA207-725F-4007-A5A1-F049C44FB380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28209ADB-60BA-4E6C-B802-B2CC0AB85181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28209ADB-60BA-4E6C-B802-B2CC0AB85181}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28209ADB-60BA-4E6C-B802-B2CC0AB85181}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28209ADB-60BA-4E6C-B802-B2CC0AB85181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BDA994-CA52-49D9-A7F2-15786D4803B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BDA994-CA52-49D9-A7F2-15786D4803B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BDA994-CA52-49D9-A7F2-15786D4803B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BDA994-CA52-49D9-A7F2-15786D4803B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EADA207-725F-4007-A5A1-F049C44FB380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EADA207-725F-4007-A5A1-F049C44FB380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EADA207-725F-4007-A5A1-F049C44FB380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EADA207-725F-4007-A5A1-F049C44FB380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

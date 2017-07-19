@@ -1,3 +1,9 @@
 .vs
 nuget
 nuspec
+/Kavenegar.NetStandard/bin/Debug
+/Kavenegar.NetStandard/obj
+/Kavenegar.Test/bin/Debug/netcoreapp1.1
+/Kavenegar.Test/obj
+/packages
+
